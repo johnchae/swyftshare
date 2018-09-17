@@ -1,0 +1,204 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	overflow-x: hidden;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+div a {
+	color: #ff004c;
+	text-decoration: none;
+}
+div a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.nav {
+	width: 100%;
+	height: 33px;
+	margin: 0 auto;
+	padding-top: 12px;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+	background-color: grey;
+	box-shadow: 0px 2px 2px;
+}
+.nav .first {
+	width: 50%;
+	float: left;
+}
+.nav .icon-sidemenu {
+	margin-left: 8px;
+	float: left;
+	color: #ff004c;
+}
+.nav .icon-sidemenu:hover {
+	cursor: pointer;
+}
+.nav .icon-home {
+	margin-left: 14px;
+	float: left;
+}
+.nav .button-listitem {
+	margin-top: -1px;
+	margin-left: 55px;
+	float: left;
+}
+.nav .button-listitem a {
+	padding: 2px 15px;
+	font-size: 15px;
+	border: 1px solid black;
+	background-color: white;
+}
+.nav .second {
+	width: 50%;
+	float: right;
+}
+.nav .search {
+	width: auto;
+	display: flex;
+	margin-top: -3px;
+	margin-left: 45%;
+	float: left;
+	font-size: 20px;
+}
+.nav .search .icon {
+	margin-left: 2px;
+}
+.nav .search .icon :hover {
+	cursor: pointer;
+}
+.nav .login-register {
+	margin-top: 0px;
+	margin-right: 12px;
+	float: right;
+	font-size: 16px;
+}
+.nav .user-greeting {
+	margin-top: 0px;
+	margin-right: 12px;
+	float: right;
+	font-size: 16px;
+}
+.sidemenu {
+	width: 230px;
+	height: 100%;
+	position: fixed;
+	top: 45px;
+	left: -230px;
+	z-index: 2;
+	background-color: grey;
+}
+.sidemenu ul {
+	/*
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	*/
+}
+.display {					/*this is so that the nav and
+							sidemenu stay when scrolling*/
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 45px;
+	clear: left;
+}
+.categories {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 2px;
+	font-size: 16px;
+	text-align: center;
+}
+.jumbotron {
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	background-image: url(../img/bike.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.jumbotron .text {
+	margin-right: -50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #ff004c;
+	text-align: center;
+}
+.jumbotron h1 {
+	margin: 2px;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	font-weight: bold;
+	font-size: 70px;
+}
+.jumbotron p {
+	margin: 2px;
+	font-size: 39px;
+}
+.content {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.content h1 {
+	margin: 50px 0;
+	text-align: center;
+}
+.content .description {
+	margin-left: 10px;
+}
+.content .learnmore {
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	text-align: right;
+}
+.content .rent {
+	width: 25%;
+	margin-top: 50px;
+	margin-left: 22%;
+	float: left;
+	border: 1px solid black;
+}
+.content .supply {
+	width: 25%;
+	margin-top: 50px;
+	margin-right: 22%;
+	float: right;
+	border: 1px solid black;
+}
+.content .request {
+	width: 25%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 22%;
+	float: left;
+	clear: left;
+	border: 1px solid black;
+}
+.content .buysupply {
+	width: 25%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 22%;
+	float: right;
+	border: 1px solid black;
+}
+.footer {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 3px;
+	clear: left;
+	border-top: 1px solid grey;
+}
+.footer p {
+	margin: 0;
+	text-align: center;
+}
